@@ -1,16 +1,4 @@
 :root {
-  /* Colors
-  --dark-blue: #03045eff;
-  --secondary-blue: #0077b6ff;
-  --primary-blue: rgb(56, 146, 194);
-  --light-blue: #90e0efff;
-  --bg-blue: #caf0f8ff;
-  --text-color: #efefef;
-  --grey-color: #d4d3d3;
-  --delete-color: #df372b;
-  --divider-color: rgba(0, 0, 0, 0.1);
-  --dark-bg: #222;
-  --soft-dark: #272724; */
   /* Global */
   --letter-spacing: 0.08rem;
   --transition: all 0.3s linear;
@@ -22,6 +10,8 @@
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 4px 5px 15px rgba(5, 6, 6, 0.4);
 }
+
+/* Dark-Mode */
 
 .light-mode {
   --clr-bg: #efefef;
@@ -37,6 +27,7 @@
   --clr-card: #272724;
 }
 
+/* Reset */
 *,
 *::after,
 *::before {
@@ -116,6 +107,8 @@ p {
     line-height: 1;
   }
 }
+
+/* Button Style */
 
 .btn {
   display: inline-block;
